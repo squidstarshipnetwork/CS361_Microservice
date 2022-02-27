@@ -4,6 +4,9 @@ Microservice to scrape data from Consolewiki entries
 The Microservice requires a text file with a HTML page URL.
 (the only contents within)
 
+REQUIREMENTS:
+Must have BeautifulSoup and Requests installed.
+
 The service takes the URL and checks for the first instance of a paragraph (the quotation about the FFXIV Job on the page) and returns this summary paragraph as text.
 
 This is written to a response file that can be used as you wish.
